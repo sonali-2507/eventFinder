@@ -61,5 +61,13 @@ request body:
   "date":"2024-03-15"
 }
 ```
+### Challenge faced
+* I have faced challenges in writing queries based on date intervals because of a conflict between the Java date library and SQL date library.
+* I have faced a challenge in mapping the fetch data from weather API & distance API to Java object.
+* I have faced the challenge of mapping the page fetch from the database to the response object page.
+### Achievements
+* Reduced response time from 19s to 5s by following approaches.
+* Created index on date column of table location_info 
+* Applied pagination and sorting.
 
 
