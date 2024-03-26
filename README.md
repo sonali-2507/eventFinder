@@ -67,7 +67,7 @@ request body:
 * I have faced the challenge of mapping the page fetch from the database to the response object page.
 ### Achievements
 * Reduced response time from 19s to 5s by following approaches.
-* Created index on date column of table location_info 
-* Applied pagination and sorting.
+  1. Created index on date column of table location_info 
+  2. Applied pagination and sorting.
 
 
