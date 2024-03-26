@@ -70,4 +70,5 @@ request body:
   1. Created index on date column of table location_info 
   2. Applied pagination and sorting.
 
-
+### Note
+I Used Java, Spring Boot, Hibernate and MYSQL as I am more efficient with these technologies.
