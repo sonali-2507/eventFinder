@@ -21,17 +21,17 @@ Software required:
 The following guides illustrate how to use some features concretely:
 
 * [Github repository link](https://github.com/sonali-2507/eventFinder/tree/main/location)
-* Download csv file from provided document link(https://drive.google.com/drive/folders/1V5acaXj0cuI9bItZRe5ZNCn9cbqrJYwM)
-* Import csv file to MYSQL database
-* Set up the database in application.properties file
+* [Download CSV file from the provided document link](https://drive.google.com/drive/folders/1V5acaXj0cuI9bItZRe5ZNCn9cbqrJYwM)
+* Import CSV file to MYSQL database
+* Set up the database in the application.properties file
 
 
-### End points
+### Endpoints
 * POST localhost:8080/events/find
 request body:
 ```json
 {
-  "query":"2024-03-15",
+  "query": "2024-03-15",
   "pageNumber":0,
   "pageSize":10,
   "sortValues":[{"sortField": "date","sortType":"ASC"}
@@ -45,8 +45,8 @@ request body:
 
   "event_name":"Holi6",
   "city_name":"nasik1",
-  "date":"2024-03-26",
-  "time":"10:30:00",
+  "date": "2024-03-26",
+  "time": "10:30:00",
   "latitude":38.33354302,
   "longitude":157.9579286
 
@@ -58,7 +58,7 @@ request body:
 {
   "latitude":40.7128,
   "longitude":-74.0060,
-  "date":"2024-03-15"
+  "date": "2024-03-15"
 }
 ```
 ### Challenge faced
